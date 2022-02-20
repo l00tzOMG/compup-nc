@@ -7,7 +7,7 @@
 * `hash -r`
 ## Kapcsolók
 ```sh
-usage: compup-nc [-h] [-v] [-i [IMAGES [IMAGES ...]]] [-c COMPARES] [-n NUMBER] [-w WIDTH] [-o]
+usage: compup-nc [-h] [-v] [-i [IMAGES [IMAGES ...]]] [-c COMPARES] [-n NUMBER] [-w WIDTH] [-o] [-bh]
 
 optional arguments:
   -h, --help            show help message
@@ -21,6 +21,7 @@ optional arguments:
   -w WIDTH, --width WIDTH
                         width of the image row (default: 500)
   -o, --oxipng          use oxipng before uploading (default: False)
+  -bh, --bithumen       switch for bitHUmen
 ```
 ## Működés közben
 ![image1](https://i.kek.sh/SYoTg3jMfk2.gif)

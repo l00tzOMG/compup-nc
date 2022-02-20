@@ -41,7 +41,7 @@ parser.add_argument('-w', '--width',
 parser.add_argument('-o', '--oxipng',
                     action='store_true',
                     help='use oxipng before uploading')
-parser.add_argument('--bithumen',
+parser.add_argument('-bh', '--bithumen',
                     action='store_true',
                     help='generate bithumen compatible bb code')
 args = parser.parse_args()
